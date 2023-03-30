@@ -14,7 +14,7 @@
     "format": "npm run prettier:fix && npm run lint:fix",
     "prepare": "husky install",
     "pre-commit": "prettier --config ./.prettierrc.json --write \"**/*{.js,.json}\" && npm run test",
-    "docker:dev":"docker-compose -f docker-compose.yml -f docker-compose.dev.yml up"
+    "docker:dev": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -25,6 +25,7 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "http-status": "^1.6.2",
+    "joi": "^17.9.1",
     "jsonwebtoken": "^9.0.0",
     "moment": "^2.29.4",
     "mongodb": "^5.1.0",
